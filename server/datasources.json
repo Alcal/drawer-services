@@ -8,5 +8,14 @@
     "name": "mySql",
     "user": "sql3119700",
     "connector": "mysql"
+  },
+  "drawer": {
+    "host": "173.194.229.167",
+    "port": 3306,
+    "database": "drawer",
+    "password": "cetyssbd",
+    "name": "drawer",
+    "user": "Erik",
+    "connector": "mysql"
   }
 }

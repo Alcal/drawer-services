@@ -6,7 +6,7 @@
     "validateUpsert": true
   },
   "mysql": {
-    "schema": "sql3119700",
+    "schema": "drawer",
     "table": "saleproduct"
   },
   "properties": {

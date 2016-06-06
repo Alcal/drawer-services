@@ -6,26 +6,10 @@
     "validateUpsert": true
   },
   "mysql": {
-    "schema": "sql3119700",
+    "schema": "drawer",
     "table": "sale"
   },
   "properties": {
-    "cantidadProductos": {
-      "type": "Number",
-      "required": false,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "cantidad_productos",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
     "costoTotal": {
       "type": "Number",
       "required": false,
@@ -38,6 +22,23 @@
         "dataLength": null,
         "dataPrecision": 22,
         "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "cantidadProductos": {
+      "type": "Number",
+      "id": false,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "cantidad_productos",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
         "nullable": "Y"
       },
       "_selectable": true

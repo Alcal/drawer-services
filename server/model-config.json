@@ -13,26 +13,28 @@
       "./mixins"
     ]
   },
+  "Category": {
+    "dataSource": "drawer",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
   "Product": {
-    "dataSource": "mySql",
+    "dataSource": "drawer",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "Sale": {
-    "dataSource": "mySql",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
-  "Category": {
-    "dataSource": "mySql",
+    "dataSource": "drawer",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "Saleproduct": {
-    "dataSource": "mySql",
-    "public": true
+    "dataSource": "drawer",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
