@@ -13,7 +13,8 @@
     "id": {
       "type": "Number",
       "id": true,
-      "required": true,
+      "required": false,
+      "index": true,
       "length": null,
       "precision": 10,
       "scale": 0,
@@ -29,6 +30,7 @@
     },
     "productid": {
       "type": "Number",
+      "id": false,
       "required": false,
       "length": null,
       "precision": 10,
