@@ -33,8 +33,6 @@
   },
   "Saleproduct": {
     "dataSource": "mySql",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
+    "public": true
   }
 }
