@@ -1,5 +1,5 @@
 {
-  "name": "Product",
+  "name": "Saleproduct",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -7,65 +7,33 @@
   },
   "mysql": {
     "schema": "drawer",
-    "table": "product"
+    "table": "saleproduct"
   },
   "properties": {
-    "name": {
-      "type": "String",
-      "required": false,
-      "length": 45,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "name",
-        "dataType": "varchar",
-        "dataLength": 45,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
-    "category": {
-      "type": "String",
-      "required": false,
-      "length": 45,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "category",
-        "dataType": "varchar",
-        "dataLength": 45,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
-    "price": {
-      "type": "Number",
-      "required": false,
-      "length": null,
-      "precision": 22,
-      "scale": null,
-      "mysql": {
-        "columnName": "price",
-        "dataType": "double",
-        "dataLength": null,
-        "dataPrecision": 22,
-        "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
-    "stock": {
+    "productid": {
       "type": "Number",
       "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "stock",
+        "columnName": "productid",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "saleid": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "saleid",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
